@@ -1,0 +1,8 @@
+<h2 style="text-align: center; margin-top: 20px;">Próximos Eventos</h2>
+<mat-grid-list cols="3" rowHeight="450px" gutterSize="20px">
+  @for (evento of eventos(); track evento.id) {
+    <mat-grid-tile>
+      <app-event-item [evento]="evento" style="width: 100%"></app-event-item>
+    </mat-grid-tile>
+  }
+</mat-grid-list>

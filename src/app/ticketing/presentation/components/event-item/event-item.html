@@ -1,0 +1,11 @@
+
+<mat-card class="event-card" appearance="outlined">
+  <img mat-card-image class="event-image" [alt]="evento().nombre" [src]="evento().imagen" />
+  <mat-card-content>
+    <p><strong>{{ evento().nombre }}</strong></p>
+    <p>📍 {{ evento().lugar }}<br>🗓️ {{ evento().fecha }}</p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-raised-button color="accent" style="width: 100%">Ver Entradas</button>
+  </mat-card-actions>
+</mat-card>

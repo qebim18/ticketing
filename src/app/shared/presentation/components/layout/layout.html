@@ -1,0 +1,30 @@
+<app-header-content></app-header-content>
+
+<div style="min-height: 80vh; padding: 20px;">
+
+  <mat-tab-group animationDuration="0ms">
+
+    <!-- PESTAÑA 1: VISTA PÚBLICA (Catálogo) -->
+    <mat-tab label="Catálogo de Eventos">
+      <div style="padding-top: 20px;">
+        <app-event-list [eventos]="eventos()"></app-event-list>
+      </div>
+    </mat-tab>
+
+    <!-- PESTAÑA 2: VISTA ADMIN (El CRUD para tu demo) -->
+    <mat-tab label="Administración de Usuarios">
+      <div style="padding-top: 20px; display: flex; gap: 20px; align-items: flex-start; flex-wrap: wrap;">
+        <div style="flex: 1; min-width: 300px;">
+          <app-user-form></app-user-form>
+        </div>
+        <div style="flex: 2; min-width: 500px;">
+          <app-user-list></app-user-list>
+        </div>
+      </div>
+    </mat-tab>
+
+  </mat-tab-group>
+
+</div>
+
+<app-footer-content></app-footer-content>
