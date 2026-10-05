@@ -1,0 +1,34 @@
+<div style="padding: 20px;">
+  <h2 style="font-family: Roboto, sans-serif; font-weight: bold;">Mis E-Tickets</h2>
+
+  <table mat-table [dataSource]="comprasMock" class="mat-elevation-z2" style="width: 100%;">
+
+    <ng-container matColumnDef="id_compra">
+      <th mat-header-cell *matHeaderCellDef> Código </th>
+      <td mat-cell *matCellDef="let c"> <strong>{{c.id_compra}}</strong> </td>
+    </ng-container>
+
+    <ng-container matColumnDef="evento">
+      <th mat-header-cell *matHeaderCellDef> Evento </th>
+      <td mat-cell *matCellDef="let c"> {{c.evento}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="zona">
+      <th mat-header-cell *matHeaderCellDef> Zona </th>
+      <td mat-cell *matCellDef="let c"> {{c.zona}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="cantidad">
+      <th mat-header-cell *matHeaderCellDef> Cant. </th>
+      <td mat-cell *matCellDef="let c"> {{c.cantidad}} </td>
+    </ng-container>
+
+    <ng-container matColumnDef="total">
+      <th mat-header-cell *matHeaderCellDef> Total Pagado </th>
+      <td mat-cell *matCellDef="let c"> S/ {{c.total | number:'1.2-2'}} </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="columnas"></tr>
+    <tr mat-row *matRowDef="let row; columns: columnas;"></tr>
+  </table>
+</div>

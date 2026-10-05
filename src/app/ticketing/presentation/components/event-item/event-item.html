@@ -1,11 +1,16 @@
-
 <mat-card class="event-card" appearance="outlined">
-  <img mat-card-image class="event-image" [alt]="evento().nombre" [src]="evento().imagen" />
+  <!-- Como no hay campo imagen en la BD, usamos un placeholder genérico para que no se vea roto -->
+  <img mat-card-image class="event-image" [alt]="evento().nombre" src="https://via.placeholder.com/300x200?text=Evento" />
+
   <mat-card-content>
     <p><strong>{{ evento().nombre }}</strong></p>
-    <p>📍 {{ evento().lugar }}<br>🗓️ {{ evento().fecha }}</p>
+
+    <!-- Usamos fecha_inicio y estado que sí existen en su BD -->
+    <p>🗓️ Inicio: {{ evento().fecha_inicio }}</p>
+    <p>📌 Estado: {{ evento().estado }}</p>
   </mat-card-content>
+
   <mat-card-actions>
-    <button mat-raised-button color="accent" style="width: 100%">Ver Entradas</button>
+    <button mat-raised-button color="accent" style="width: 100%" (click)="abrirCompra()">Ver Entradas</button>
   </mat-card-actions>
 </mat-card>

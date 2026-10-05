@@ -1,0 +1,17 @@
+{
+  "/api/eventos": "/eventos",
+  "/api/eventos/:id": "/eventos/:id",
+
+  "/api/clientes": "/clientes",
+  "/api/clientes/:id": "/clientes/:id",
+
+  "/api/organizadores/:id/eventos": "/eventos?idOrganizador=:id",
+
+  "/api/eventos/:id/disponibilidad": "/tiposEntrada?idEvento=:id",
+
+  "/api/tipos-entrada": "/tiposEntrada",
+  "/api/tipos-entrada/:id": "/tiposEntrada/:id",
+
+  "/api/usuarios": "/usuarios",
+  "/api/usuarios/:id": "/usuarios/:id"
+}

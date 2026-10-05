@@ -5,11 +5,15 @@ export class Evento {
   fecha: string;
   imagen: string;
 
-  constructor() {
-    this.id = 0;
-    this.nombre = '';
-    this.lugar = '';
-    this.fecha = '';
-    this.imagen = '';
+  // Agrega solo estas dos líneas nuevas como opcionales:
+  fecha_inicio?: string;
+  estado?: string;
+
+  constructor(id: number, nombre: string, lugar: string, fecha: string, imagen: string) {
+    this.id = id;
+    this.nombre = nombre;
+    this.lugar = lugar;
+    this.fecha = fecha;
+    this.imagen = imagen;
   }
 }

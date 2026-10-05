@@ -1,0 +1,698 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "email": "lucia.fernandez@ticketing.pe",
+      "nombres": "Lucía",
+      "apellidos": "Fernández",
+      "tipoUsuario": "C"
+    },
+    {
+      "id": 2,
+      "email": "diego.torres@ticketing.pe",
+      "nombres": "Diego",
+      "apellidos": "Torres",
+      "tipoUsuario": "C"
+    },
+    {
+      "id": 3,
+      "email": "valeria.castillo@ticketing.pe",
+      "nombres": "Valeria",
+      "apellidos": "Castillo",
+      "tipoUsuario": "C"
+    },
+    {
+      "id": 4,
+      "email": "jorge.ramirez@ticketing.pe",
+      "nombres": "Jorge",
+      "apellidos": "Ramírez",
+      "tipoUsuario": "C"
+    },
+    {
+      "id": 5,
+      "email": "camila.vargas@ticketing.pe",
+      "nombres": "Camila",
+      "apellidos": "Vargas",
+      "tipoUsuario": "C"
+    },
+    {
+      "id": 6,
+      "email": "andres.paredes@ticketing.pe",
+      "nombres": "Andrés",
+      "apellidos": "Paredes",
+      "tipoUsuario": "C"
+    },
+    {
+      "id": 7,
+      "email": "sofia.herrera@ticketing.pe",
+      "nombres": "Sofía",
+      "apellidos": "Herrera",
+      "tipoUsuario": "C"
+    },
+    {
+      "id": 8,
+      "email": "daniel.rojas@ticketing.pe",
+      "nombres": "Daniel",
+      "apellidos": "Rojas",
+      "tipoUsuario": "C"
+    },
+    {
+      "id": 9,
+      "email": "mariana.flores@ticketing.pe",
+      "nombres": "Mariana",
+      "apellidos": "Flores",
+      "tipoUsuario": "C"
+    },
+    {
+      "id": 10,
+      "email": "sebastian.cardenas@ticketing.pe",
+      "nombres": "Sebastián",
+      "apellidos": "Cárdenas",
+      "tipoUsuario": "C"
+    },
+    {
+      "id": 11,
+      "email": "gabriela.mendoza@ticketing.pe",
+      "nombres": "Gabriela",
+      "apellidos": "Mendoza",
+      "tipoUsuario": "C"
+    },
+    {
+      "id": 12,
+      "email": "luis.quispe@ticketing.pe",
+      "nombres": "Luis",
+      "apellidos": "Quispe",
+      "tipoUsuario": "C"
+    },
+    {
+      "id": 13,
+      "email": "renata.salazar@ticketing.pe",
+      "nombres": "Renata",
+      "apellidos": "Salazar",
+      "tipoUsuario": "C"
+    },
+    {
+      "id": 14,
+      "email": "mateo.navarro@ticketing.pe",
+      "nombres": "Mateo",
+      "apellidos": "Navarro",
+      "tipoUsuario": "C"
+    },
+    {
+      "id": 15,
+      "email": "paula.gutierrez@ticketing.pe",
+      "nombres": "Paula",
+      "apellidos": "Gutiérrez",
+      "tipoUsuario": "C"
+    },
+    {
+      "id": 16,
+      "email": "nicolas.sanchez@ticketing.pe",
+      "nombres": "Nicolás",
+      "apellidos": "Sánchez",
+      "tipoUsuario": "C"
+    },
+    {
+      "id": 17,
+      "email": "andrea.morales@ticketing.pe",
+      "nombres": "Andrea",
+      "apellidos": "Morales",
+      "tipoUsuario": "C"
+    },
+    {
+      "id": 18,
+      "email": "rodrigo.vega@ticketing.pe",
+      "nombres": "Rodrigo",
+      "apellidos": "Vega",
+      "tipoUsuario": "C"
+    },
+    {
+      "id": 19,
+      "email": "daniela.campos@ticketing.pe",
+      "nombres": "Daniela",
+      "apellidos": "Campos",
+      "tipoUsuario": "C"
+    },
+    {
+      "id": 20,
+      "email": "fernando.medina@ticketing.pe",
+      "nombres": "Fernando",
+      "apellidos": "Medina",
+      "tipoUsuario": "C"
+    },
+    {
+      "id": 21,
+      "email": "alejandra.cruz@ticketing.pe",
+      "nombres": "Alejandra",
+      "apellidos": "Cruz",
+      "tipoUsuario": "C"
+    },
+    {
+      "id": 22,
+      "email": "bruno.silva@ticketing.pe",
+      "nombres": "Bruno",
+      "apellidos": "Silva",
+      "tipoUsuario": "C"
+    },
+    {
+      "id": 23,
+      "email": "patricia.reyes@ticketing.pe",
+      "nombres": "Patricia",
+      "apellidos": "Reyes",
+      "tipoUsuario": "C"
+    },
+    {
+      "id": 24,
+      "email": "martin.ponce@ticketing.pe",
+      "nombres": "Martín",
+      "apellidos": "Ponce",
+      "tipoUsuario": "C"
+    },
+    {
+      "id": 25,
+      "email": "claudia.espinoza@ticketing.pe",
+      "nombres": "Claudia",
+      "apellidos": "Espinoza",
+      "tipoUsuario": "C"
+    },
+
+    {
+      "id": 26,
+      "email": "ricardo.valdez@ticketing.pe",
+      "nombres": "Ricardo",
+      "apellidos": "Valdez",
+      "tipoUsuario": "O"
+    },
+    {
+      "id": 27,
+      "email": "natalia.pena@ticketing.pe",
+      "nombres": "Natalia",
+      "apellidos": "Peña",
+      "tipoUsuario": "O"
+    },
+    {
+      "id": 28,
+      "email": "eduardo.molina@ticketing.pe",
+      "nombres": "Eduardo",
+      "apellidos": "Molina",
+      "tipoUsuario": "O"
+    },
+    {
+      "id": 29,
+      "email": "fiorella.acosta@ticketing.pe",
+      "nombres": "Fiorella",
+      "apellidos": "Acosta",
+      "tipoUsuario": "O"
+    },
+    {
+      "id": 30,
+      "email": "gonzalo.rios@ticketing.pe",
+      "nombres": "Gonzalo",
+      "apellidos": "Ríos",
+      "tipoUsuario": "O"
+    }
+  ],
+
+  "clientes": [
+    { "id": 1, "documento": "70000003", "telefono": "987000003", "fechaNacimiento": "2001-03-15" },
+    { "id": 2, "documento": "70000004", "telefono": "987000004", "fechaNacimiento": "1999-07-21" },
+    { "id": 3, "documento": "70000005", "telefono": "987000005", "fechaNacimiento": "2002-01-10" },
+    { "id": 4, "documento": "70000006", "telefono": "987000006", "fechaNacimiento": "1998-11-05" },
+    { "id": 5, "documento": "70000007", "telefono": "987000007", "fechaNacimiento": "2000-06-18" },
+    { "id": 6, "documento": "70000008", "telefono": "987000008", "fechaNacimiento": "1997-09-12" },
+    { "id": 7, "documento": "70000009", "telefono": "987000009", "fechaNacimiento": "2001-12-01" },
+    { "id": 8, "documento": "70000010", "telefono": "987000010", "fechaNacimiento": "1999-04-23" },
+    { "id": 9, "documento": "70000011", "telefono": "987000011", "fechaNacimiento": "2002-08-14" },
+    { "id": 10, "documento": "70000012", "telefono": "987000012", "fechaNacimiento": "1998-02-27" },
+    { "id": 11, "documento": "70000013", "telefono": "987000013", "fechaNacimiento": "2000-10-09" },
+    { "id": 12, "documento": "70000014", "telefono": "987000014", "fechaNacimiento": "1997-05-19" },
+    { "id": 13, "documento": "70000015", "telefono": "987000015", "fechaNacimiento": "2001-01-31" },
+    { "id": 14, "documento": "70000016", "telefono": "987000016", "fechaNacimiento": "1999-03-08" },
+    { "id": 15, "documento": "70000017", "telefono": "987000017", "fechaNacimiento": "2002-07-17" },
+    { "id": 16, "documento": "70000018", "telefono": "987000018", "fechaNacimiento": "1998-12-20" },
+    { "id": 17, "documento": "70000019", "telefono": "987000019", "fechaNacimiento": "2000-04-11" },
+    { "id": 18, "documento": "70000020", "telefono": "987000020", "fechaNacimiento": "1997-10-30" },
+    { "id": 19, "documento": "70000021", "telefono": "987000021", "fechaNacimiento": "2001-06-05" },
+    { "id": 20, "documento": "70000022", "telefono": "987000022", "fechaNacimiento": "1999-09-16" },
+    { "id": 21, "documento": "70000023", "telefono": "987000023", "fechaNacimiento": "2002-02-12" },
+    { "id": 22, "documento": "70000024", "telefono": "987000024", "fechaNacimiento": "1998-08-28" },
+    { "id": 23, "documento": "70000025", "telefono": "987000025", "fechaNacimiento": "2000-11-03" },
+    { "id": 24, "documento": "70000026", "telefono": "987000026", "fechaNacimiento": "1997-01-25" },
+    { "id": 25, "documento": "70000027", "telefono": "987000027", "fechaNacimiento": "2001-05-22" }
+  ],
+
+  "organizadores": [
+    {
+      "id": 26,
+      "razonSocial": "Eventos Costa Verde SAC",
+      "ruc": "20600000028",
+      "comisionPct": 10.0
+    },
+    {
+      "id": 27,
+      "razonSocial": "Andes Live Entertainment SAC",
+      "ruc": "20600000029",
+      "comisionPct": 12.5
+    },
+    {
+      "id": 28,
+      "razonSocial": "Lima Cultural Producciones SAC",
+      "ruc": "20600000030",
+      "comisionPct": 8.5
+    },
+    {
+      "id": 29,
+      "razonSocial": "Perú Concerts SAC",
+      "ruc": "20600000031",
+      "comisionPct": 11.0
+    },
+    {
+      "id": 30,
+      "razonSocial": "Eventos Metropolitanos SAC",
+      "ruc": "20600000032",
+      "comisionPct": 9.5
+    }
+  ],
+
+  "eventos": [
+    {
+      "id": 7,
+      "idOrganizador": 27,
+      "idCategoria": 2,
+      "idRecinto": 7,
+      "nombre": "Maraton Lima 2027",
+      "descripcion": "Evento deportivo de participación masiva.",
+      "fechaInicio": "2027-04-20T12:00:00Z",
+      "fechaFin": "2027-04-20T19:00:00Z",
+      "inicioVenta": "2027-02-01T05:00:00Z",
+      "estado": "PUBLICADO"
+    },
+    {
+      "id": 8,
+      "idOrganizador": 28,
+      "idCategoria": 3,
+      "idRecinto": 1,
+      "nombre": "Arena Rock Night",
+      "descripcion": "Presentación musical en vivo.",
+      "fechaInicio": "2027-05-09T00:00:00Z",
+      "fechaFin": "2027-05-09T04:00:00Z",
+      "inicioVenta": "2027-02-15T05:00:00Z",
+      "estado": "PUBLICADO"
+    },
+    {
+      "id": 9,
+      "idOrganizador": 29,
+      "idCategoria": 4,
+      "idRecinto": 2,
+      "nombre": "Congreso de Innovacion",
+      "descripcion": "Congreso sobre innovación y transformación digital.",
+      "fechaInicio": "2027-05-20T14:00:00Z",
+      "fechaFin": "2027-05-20T23:00:00Z",
+      "inicioVenta": "2027-03-01T05:00:00Z",
+      "estado": "PUBLICADO"
+    },
+    {
+      "id": 10,
+      "idOrganizador": 30,
+      "idCategoria": 5,
+      "idRecinto": 3,
+      "nombre": "Obra Teatro Central",
+      "descripcion": "Temporada especial de teatro.",
+      "fechaInicio": "2027-06-06T00:00:00Z",
+      "fechaFin": "2027-06-06T03:00:00Z",
+      "inicioVenta": "2027-03-15T05:00:00Z",
+      "estado": "PUBLICADO"
+    },
+    {
+      "id": 11,
+      "idOrganizador": 26,
+      "idCategoria": 1,
+      "idRecinto": 4,
+      "nombre": "Feria Digital Lima",
+      "descripcion": "Exposición de servicios digitales.",
+      "fechaInicio": "2027-06-18T15:00:00Z",
+      "fechaFin": "2027-06-18T23:00:00Z",
+      "inicioVenta": "2027-04-01T05:00:00Z",
+      "estado": "PUBLICADO"
+    },
+    {
+      "id": 12,
+      "idOrganizador": 27,
+      "idCategoria": 2,
+      "idRecinto": 5,
+      "nombre": "Torneo Universitario",
+      "descripcion": "Competencia deportiva universitaria.",
+      "fechaInicio": "2027-07-02T14:00:00Z",
+      "fechaFin": "2027-07-02T22:00:00Z",
+      "inicioVenta": "2027-04-15T05:00:00Z",
+      "estado": "PUBLICADO"
+    },
+    {
+      "id": 13,
+      "idOrganizador": 28,
+      "idCategoria": 3,
+      "idRecinto": 6,
+      "nombre": "Comedia en Vivo",
+      "descripcion": "Espectáculo de comedia en vivo.",
+      "fechaInicio": "2027-07-16T01:00:00Z",
+      "fechaFin": "2027-07-16T04:00:00Z",
+      "inicioVenta": "2027-05-01T05:00:00Z",
+      "estado": "PUBLICADO"
+    },
+    {
+      "id": 14,
+      "idOrganizador": 29,
+      "idCategoria": 4,
+      "idRecinto": 7,
+      "nombre": "Expo Educacion 2027",
+      "descripcion": "Feria de educación y orientación profesional.",
+      "fechaInicio": "2027-08-01T15:00:00Z",
+      "fechaFin": "2027-08-01T23:00:00Z",
+      "inicioVenta": "2027-05-15T05:00:00Z",
+      "estado": "PUBLICADO"
+    },
+    {
+      "id": 15,
+      "idOrganizador": 30,
+      "idCategoria": 5,
+      "idRecinto": 1,
+      "nombre": "Concierto Primavera",
+      "descripcion": "Concierto de música contemporánea.",
+      "fechaInicio": "2027-09-11T00:00:00Z",
+      "fechaFin": "2027-09-11T04:30:00Z",
+      "inicioVenta": "2027-06-01T05:00:00Z",
+      "estado": "PUBLICADO"
+    },
+    {
+      "id": 16,
+      "idOrganizador": 26,
+      "idCategoria": 1,
+      "idRecinto": 2,
+      "nombre": "Festival Cultura Urbana",
+      "descripcion": "Festival de cultura, arte y música urbana.",
+      "fechaInicio": "2027-09-25T20:00:00Z",
+      "fechaFin": "2027-09-26T04:00:00Z",
+      "inicioVenta": "2027-06-15T05:00:00Z",
+      "estado": "PUBLICADO"
+    },
+    {
+      "id": 17,
+      "idOrganizador": 27,
+      "idCategoria": 2,
+      "idRecinto": 3,
+      "nombre": "Final Metropolitana",
+      "descripcion": "Final deportiva de temporada.",
+      "fechaInicio": "2027-10-08T23:00:00Z",
+      "fechaFin": "2027-10-09T03:00:00Z",
+      "inicioVenta": "2027-07-01T05:00:00Z",
+      "estado": "PUBLICADO"
+    },
+    {
+      "id": 18,
+      "idOrganizador": 28,
+      "idCategoria": 3,
+      "idRecinto": 4,
+      "nombre": "Teatro Bajo las Estrellas",
+      "descripcion": "Presentación teatral especial.",
+      "fechaInicio": "2027-10-23T00:00:00Z",
+      "fechaFin": "2027-10-23T03:00:00Z",
+      "inicioVenta": "2027-07-15T05:00:00Z",
+      "estado": "PUBLICADO"
+    },
+    {
+      "id": 19,
+      "idOrganizador": 29,
+      "idCategoria": 4,
+      "idRecinto": 5,
+      "nombre": "Foro Empresarial Lima",
+      "descripcion": "Foro sobre negocios y emprendimiento.",
+      "fechaInicio": "2027-11-05T14:00:00Z",
+      "fechaFin": "2027-11-05T22:00:00Z",
+      "inicioVenta": "2027-08-01T05:00:00Z",
+      "estado": "PUBLICADO"
+    }
+  ],
+
+  "tiposEntrada": [
+    {
+      "id": 1,
+      "idEvento": 1,
+      "idZona": 1,
+      "nombre": "VIP",
+      "precio": 300.0,
+      "cantidadTotal": 3000,
+      "cantidadDisponible": 3000,
+      "limitePorCompra": 4
+    },
+    {
+      "id": 2,
+      "idEvento": 1,
+      "idZona": 2,
+      "nombre": "General",
+      "precio": 120.0,
+      "cantidadTotal": 9000,
+      "cantidadDisponible": 9000,
+      "limitePorCompra": 6
+    },
+    {
+      "id": 3,
+      "idEvento": 2,
+      "idZona": 3,
+      "nombre": "Principal",
+      "precio": 180.0,
+      "cantidadTotal": 2000,
+      "cantidadDisponible": 2000,
+      "limitePorCompra": 4
+    },
+    {
+      "id": 4,
+      "idEvento": 2,
+      "idZona": 4,
+      "nombre": "Balcón",
+      "precio": 100.0,
+      "cantidadTotal": 1000,
+      "cantidadDisponible": 1000,
+      "limitePorCompra": 6
+    },
+    {
+      "id": 5,
+      "idEvento": 3,
+      "idZona": 5,
+      "nombre": "General",
+      "precio": 90.0,
+      "cantidadTotal": 5000,
+      "cantidadDisponible": 5000,
+      "limitePorCompra": 6
+    },
+    {
+      "id": 6,
+      "idEvento": 3,
+      "idZona": 6,
+      "nombre": "VIP",
+      "precio": 220.0,
+      "cantidadTotal": 2000,
+      "cantidadDisponible": 2000,
+      "limitePorCompra": 4
+    },
+    {
+      "id": 7,
+      "idEvento": 4,
+      "idZona": 7,
+      "nombre": "Auditorio",
+      "precio": 160.0,
+      "cantidadTotal": 4000,
+      "cantidadDisponible": 4000,
+      "limitePorCompra": 5
+    },
+    {
+      "id": 8,
+      "idEvento": 4,
+      "idZona": 8,
+      "nombre": "Terraza",
+      "precio": 120.0,
+      "cantidadTotal": 2000,
+      "cantidadDisponible": 2000,
+      "limitePorCompra": 6
+    },
+    {
+      "id": 9,
+      "idEvento": 5,
+      "idZona": 9,
+      "nombre": "General",
+      "precio": 80.0,
+      "cantidadTotal": 1500,
+      "cantidadDisponible": 1500,
+      "limitePorCompra": 6
+    },
+    {
+      "id": 10,
+      "idEvento": 5,
+      "idZona": 10,
+      "nombre": "VIP",
+      "precio": 150.0,
+      "cantidadTotal": 1000,
+      "cantidadDisponible": 1000,
+      "limitePorCompra": 4
+    },
+    {
+      "id": 11,
+      "idEvento": 6,
+      "idZona": 11,
+      "nombre": "Campo",
+      "precio": 110.0,
+      "cantidadTotal": 6000,
+      "cantidadDisponible": 6000,
+      "limitePorCompra": 6
+    },
+    {
+      "id": 12,
+      "idEvento": 6,
+      "idZona": 12,
+      "nombre": "Tribuna",
+      "precio": 80.0,
+      "cantidadTotal": 4000,
+      "cantidadDisponible": 4000,
+      "limitePorCompra": 6
+    },
+    {
+      "id": 13,
+      "idEvento": 7,
+      "idZona": 13,
+      "nombre": "General",
+      "precio": 110.0,
+      "cantidadTotal": 6000,
+      "cantidadDisponible": 6000,
+      "limitePorCompra": 6
+    },
+    {
+      "id": 14,
+      "idEvento": 7,
+      "idZona": 14,
+      "nombre": "VIP",
+      "precio": 250.0,
+      "cantidadTotal": 2000,
+      "cantidadDisponible": 2000,
+      "limitePorCompra": 4
+    },
+    {
+      "id": 15,
+      "idEvento": 8,
+      "idZona": 1,
+      "nombre": "Preferencial",
+      "precio": 190.0,
+      "cantidadTotal": 3000,
+      "cantidadDisponible": 3000,
+      "limitePorCompra": 4
+    },
+    {
+      "id": 16,
+      "idEvento": 8,
+      "idZona": 2,
+      "nombre": "General",
+      "precio": 120.0,
+      "cantidadTotal": 9000,
+      "cantidadDisponible": 9000,
+      "limitePorCompra": 6
+    },
+    {
+      "id": 17,
+      "idEvento": 9,
+      "idZona": 3,
+      "nombre": "Principal",
+      "precio": 160.0,
+      "cantidadTotal": 2000,
+      "cantidadDisponible": 2000,
+      "limitePorCompra": 4
+    },
+    {
+      "id": 18,
+      "idEvento": 9,
+      "idZona": 4,
+      "nombre": "Balcón",
+      "precio": 90.0,
+      "cantidadTotal": 1000,
+      "cantidadDisponible": 1000,
+      "limitePorCompra": 6
+    },
+    {
+      "id": 19,
+      "idEvento": 10,
+      "idZona": 5,
+      "nombre": "General",
+      "precio": 130.0,
+      "cantidadTotal": 5000,
+      "cantidadDisponible": 5000,
+      "limitePorCompra": 6
+    },
+    {
+      "id": 20,
+      "idEvento": 10,
+      "idZona": 6,
+      "nombre": "VIP",
+      "precio": 220.0,
+      "cantidadTotal": 2000,
+      "cantidadDisponible": 2000,
+      "limitePorCompra": 4
+    },
+    {
+      "id": 21,
+      "idEvento": 11,
+      "idZona": 7,
+      "nombre": "Auditorio",
+      "precio": 140.0,
+      "cantidadTotal": 4000,
+      "cantidadDisponible": 4000,
+      "limitePorCompra": 5
+    },
+    {
+      "id": 22,
+      "idEvento": 11,
+      "idZona": 8,
+      "nombre": "Terraza",
+      "precio": 100.0,
+      "cantidadTotal": 2000,
+      "cantidadDisponible": 2000,
+      "limitePorCompra": 6
+    },
+    {
+      "id": 23,
+      "idEvento": 12,
+      "idZona": 9,
+      "nombre": "General",
+      "precio": 95.0,
+      "cantidadTotal": 1500,
+      "cantidadDisponible": 1500,
+      "limitePorCompra": 6
+    },
+    {
+      "id": 24,
+      "idEvento": 13,
+      "idZona": 11,
+      "nombre": "VIP",
+      "precio": 170.0,
+      "cantidadTotal": 2000,
+      "cantidadDisponible": 2000,
+      "limitePorCompra": 4
+    },
+    {
+      "id": 25,
+      "idEvento": 14,
+      "idZona": 14,
+      "nombre": "VIP",
+      "precio": 125.0,
+      "cantidadTotal": 2000,
+      "cantidadDisponible": 2000,
+      "limitePorCompra": 4
+    },
+    {
+      "id": 26,
+      "idEvento": 15,
+      "idZona": 1,
+      "nombre": "Preferencial",
+      "precio": 210.0,
+      "cantidadTotal": 3000,
+      "cantidadDisponible": 3000,
+      "limitePorCompra": 4
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<h2 mat-dialog-title>Comprar Entradas: {{ evento.nombre }}</h2>
+
+<mat-dialog-content style="display: flex; flex-direction: column; gap: 15px; padding-top: 10px; min-width: 300px;">
+  <p>📍 {{ evento.lugar }} | 🗓️ {{ evento.fecha }}</p>
+
+  <mat-form-field appearance="outline">
+    <mat-label>Selecciona una Zona</mat-label>
+    <mat-select [(ngModel)]="zonaSeleccionada">
+      <mat-option *ngFor="let zona of zonas" [value]="zona">
+        {{ zona.nombre }} - S/ {{ zona.precio | number:'1.2-2' }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+
+  <mat-form-field appearance="outline">
+    <mat-label>Cantidad</mat-label>
+    <input matInput type="number" min="1" max="10" [(ngModel)]="cantidad">
+  </mat-form-field>
+
+  <div *ngIf="zonaSeleccionada" style="text-align: right; font-size: 1.2em; font-weight: bold;">
+    Total a Pagar: S/ {{ totalPagar | number:'1.2-2' }}
+  </div>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Cancelar</button>
+  <button mat-raised-button color="accent" [disabled]="!zonaSeleccionada || cantidad < 1" (click)="confirmarCompra()">
+    Confirmar y Pagar
+  </button>
+</mat-dialog-actions>

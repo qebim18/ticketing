@@ -1,33 +1,30 @@
 import { inject, Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { map, Observable } from 'rxjs';
-import { Usuario } from '../domain/model/usuario.entity';
-import { UsuarioResponse } from './usuario-response';
-import { UsuarioAssembler } from './usuario-assembler';
+import { Observable, of } from 'rxjs';
+import { environment } from '../../../environments/environment';
 
 @Injectable({
   providedIn: 'root',
 })
 export class UsuarioApiService {
-  // IP de la VM de Aplicación apuntando al script PHP
-  private baseUrl: string = 'http://57.156.67.21/api';
   private http: HttpClient = inject(HttpClient);
 
-  getUsuarios(): Observable<Usuario[]> {
-    return this.http
-      .get<UsuarioResponse[]>(`${this.baseUrl}/usuarios.php`)
-      .pipe(map((responseArray) => UsuarioAssembler.toEntityFromResponseArray(responseArray)));
+  // 1. Usamos la base y la ruta de clientes que pidió Alejandro
+  private clientesUrl = `${environment.apiBaseUrl}${environment.clientesEndpointPath}`;
+
+  // 2. Silenciamos el GET devolviendo un arreglo vacío usando 'of([])'.
+  // Así tu tabla UserList no se rompe al compilar, respetando que el endpoint no existe en el backend.
+  getUsuarios(): Observable<any[]> {
+    return of([]);
   }
 
+  // 3. El POST de registro que sí está habilitado en su server.js
   createUsuario(usuario: any): Observable<any> {
-    return this.http.post(`${this.baseUrl}/usuarios.php`, usuario);
-  }
+    return this.http.post(`${this.clientesUrl}/registro`, usuario);
+  } // <--- ESTA ES LA LLAVE QUE FALTABA
 
-  updateUsuario(id: number, usuario: any): Observable<any> {
-    return this.http.put(`${this.baseUrl}/usuarios.php?id=${id}`, usuario);
-  }
-
+  // 4. Simulamos el DELETE para que no se rompa la tabla
   deleteUsuario(id: number): Observable<any> {
-    return this.http.delete(`${this.baseUrl}/usuarios.php?id=${id}`);
+    return of(null);
   }
 }
